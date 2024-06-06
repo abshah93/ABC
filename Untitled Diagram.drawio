@@ -1,24 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T10:47:56.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DM8zswNj_k8e7-OeTDt2" version="24.4.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T11:05:13.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_bW39wDf68dXLYNjCEkE" version="24.4.15" type="github">
   <diagram name="Page-1" id="VSWhoGLParrLKaTzu1sn">
     <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3G6LltM5kqeiDpir_suv-3" value="LB&amp;nbsp;&lt;br&gt;172.0.0.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="90" width="240" height="60" as="geometry" />
+        <mxCell id="3G6LltM5kqeiDpir_suv-3" value="LB&amp;nbsp;&lt;br&gt;172.27.22.105" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3G6LltM5kqeiDpir_suv-4" value="App server&amp;nbsp;&lt;br&gt;10.1.227.105" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3G6LltM5kqeiDpir_suv-4" value="Vi&amp;nbsp;&lt;br&gt;10.1.227.105" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="250" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3G6LltM5kqeiDpir_suv-6" value="App server&lt;br&gt;10.1.227.106" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3G6LltM5kqeiDpir_suv-6" value="Vi&lt;br&gt;10.1.227.106" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="250" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3G6LltM5kqeiDpir_suv-7" value="DB&lt;br&gt;10.1.227.107" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="313" y="420" width="225" height="150" as="geometry" />
+        <mxCell id="3G6LltM5kqeiDpir_suv-7" value="MSSQL DB&lt;br&gt;10.1.227.107" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="313" y="390" width="225" height="150" as="geometry" />
         </mxCell>
         <mxCell id="3G6LltM5kqeiDpir_suv-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="150" as="sourcePoint" />
+            <mxPoint x="480" y="170" as="sourcePoint" />
             <mxPoint x="480" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -30,7 +30,7 @@
         </mxCell>
         <mxCell id="3G6LltM5kqeiDpir_suv-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="330" as="sourcePoint" />
+            <mxPoint x="310" y="320" as="sourcePoint" />
             <mxPoint x="360" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -39,6 +39,9 @@
             <mxPoint x="530" y="320" as="sourcePoint" />
             <mxPoint x="480" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3G6LltM5kqeiDpir_suv-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
